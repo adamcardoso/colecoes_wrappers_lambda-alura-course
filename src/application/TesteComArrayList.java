@@ -3,10 +3,12 @@ package application;
 import entities.ContaCorrente;
 
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 public class TesteComArrayList {
     public static void main(String[] args) {
-        LinkedList<Conta> list = new LinkedList<>(); // generics
+        List<Conta> list = new Vector<>(); // generics
 
         Conta cc = new ContaCorrente(22, 11);
         list.add(cc);
